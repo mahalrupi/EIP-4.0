@@ -6,5 +6,5 @@
 ### 4.1x1 Convolution: It combines channels and remove unwanted channels which results in reduction of z-depth of an image.
 ### 5.3x3 Convolution: It is process in which 3X3 kernel convolve over an image and reduce its x-y dimention by value 2.
 ### 6.Feature Maps: It is a map or collection of all feature present in the image.
-### 7.Activation Function: It is use to decide 
+### 7.Activation Function: It takes an input image and produce corresponding output image based on the type of activation function.
 ### 8.Receptive Field: It is number of pixel on input layer that can be seen by one pixel of output layer.
