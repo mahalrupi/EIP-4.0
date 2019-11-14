@@ -10,6 +10,9 @@
 #### 7.Activation Function: It takes an input image and produce corresponding output image based on the type of activation function.
 #### 8.Receptive Field: It is number of pixel on input layer that can be seen by one pixel of output layer.
 
+
+
+
 ### Group Details: Rupesh Mahal
 ###                Rishabh Mishra
 ###                Shivansh Singhal
