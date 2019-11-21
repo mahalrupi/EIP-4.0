@@ -90,3 +90,9 @@ Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 
 
 ### Strategy 
+1. Firstly, we need to remove bias value. To do so, we include "bias=False" in our code
+2. Then we need to reduce our parameters from 16.5k to below 15k. 
+3. For this I have reduce the no. channels in convolutional layer 2 from 32 to 16.
+4. after this, the no of parameter are 13.6k
+5. Next,  the difference between validation accuracy and training accuracy was too large, I have reduced the value of dropout from 0.1      to 0.05
+6. I tried to reduce batchsize from 128 to 64, but this actually reduces the accuracy so therefore I have set the batch value to 128
